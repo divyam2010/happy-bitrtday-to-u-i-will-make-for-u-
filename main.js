@@ -7,8 +7,8 @@ var canvas = new fabric.Canvas('mycanvas');
      fabric.Image.fromURL('BirthdayImage.jpg', function(Img) {
      
      block_image_object = Img;
-     block_image_object.scaleToWidth(700);
-     block_image_object.scaleToHeight(500);
+     block_image_object.scaleToWidth(800);
+     block_image_object.scaleToHeight(999);
      block_image_object.set({
          top:0,left:0
      });
